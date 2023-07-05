@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css">
+
+  <head>
+    <title>Survey</title>
+    </head>
+    <body>
+<h1 id="title">Clinic Visit</h1>
+<p id="description">Thank you for assisting us in improving our patient care!</p>
+</body>
+<form id="survey-form">
+  <fieldset> 
+<div><label id="name-label" class="name" >Name: <br><input id="name" type="text" placeholder="Enter your Name" class="namebox" required></label></div>
+<div><label id="email-label" class="email">Email: <br><input id="email" type="email" placeholder="Enter your Email" class="emailbox" required></label></div>
+<div><label id="number-label" class="age">Age: <br><input id="number" type="number" min="18" max="100" placeholder="" class="agebox" required></label></div></fieldset>
+<fieldset>
+<div><label for="Experience" class="experience">How Was Your Experience? <br></label><select id="dropdown" ><option value="">Please choose an option...</option>
+<option value="Excellent">Excellent</option>
+<option value="Good">Good</option>
+<option value="Poor">Poor</option>
+</select></div>
+
+<div><label class="review">Would you Recommend this Clinic?</label>
+<div><label class="options">
+<input type="radio" name="definitely-possibly-never" value="definitely">Definitely</label></div>
+<div><label class="options">
+<input type="radio" name="definitely-possibly-never" value="possibly">Possibly</label>
+</div>
+<div><label class="options">
+<input type="radio" name="definitely-possibly-never" value="never">Never</label></div>
+
+<div><label class="container">How Did You Hear About Us?</label>
+<div><label class="options"><input type="checkbox" name="options" value="Facebook"> Facebook
+</label></div>
+<div><label class="options">
+  <input type="checkbox" name="options" value="Instagram"> Instagram
+</label></div>
+<div><label class="options">
+  <input type="checkbox" name="options"
+value="Yelp"> Yelp</label></div>
+<div><label class="options">
+  <input type="checkbox" name="options" value="TV Ad"> TV Ad</label></div>
+<div><label class="options">
+  <input type="checkbox" name="options"
+value="Other"> Other
+</div></label>
+<div>
+  <label for="comms" class="comments">Any Comments or Suggestions?</label>
+<textarea name="comments" placeholder="Enter your comments here..." id="comms"></textarea>
+</div></fieldset>
+<fieldset><div class="submit"><input id="submit" type="submit" class="button"></input></div>
+</form>
+</html>

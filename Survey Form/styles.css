@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;}
+
+form {
+  height:100vh}
+
+h1{
+  text-align: center;
+  color:#ffffff}
+   
+ p{
+  text-align:center;
+  font-style:italic; 
+  color:#ffffff}
+    
+body{
+  background-color:#800000}
+    
+textarea {
+  margin:5px; 
+  height:100%;
+  width:95%}
+    
+.name, .email, .age{
+  color:#ffffff; 
+  font-weight:bold}
+    
+.namebox, .emailbox{
+  margin:10px; 
+  width:50%}
+  
+.agebox{
+  margin:10px;
+  width:50px}
+    
+.experience, .review, .container, .comments {
+  color:white; 
+  font-weight:bold; 
+  line-height:2.5}
+    
+select{
+  margin: 10px; 
+  width:50%}
+
+.options{
+  color:#ffffff; 
+  margin:10px}
+    
+.submit{
+  text-align:center}
+    
+.button{
+  color:#000000; 
+  background:#ffffff; 
+  font-weight:bold; 
+  width:25%; 
+  margin:10px}
+    
+.button:hover{
+  cursor: pointer;}
+ 
+  @media only screen and (max-width: 768px) {
+    
+    form {height:50vh}
+    .namebox, .emailbox {
+      width: 95%;
+    }
+  }
+  
+      
